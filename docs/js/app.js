@@ -11931,7 +11931,7 @@ function DetailView(options) {
 			}, 2000);
 
 			xhr = $.ajax({
-				url: 'https://w.áq.vn/api/blog/' + slug,
+				url: 'https://703705.xyz/api/blog/' + slug,
 				dataType: 'json'
 			}).done(onLoadComplete);
 		}
@@ -12746,7 +12746,7 @@ function SearchView() {
 				spinner.classList.add("show");
 				if (xhr) xhr.abort();
 				xhr = $.ajax({
-					url: 'https://w.áq.vn/api/search',
+					url: 'https://703705.xyz/api/search',
           method: 'post',
 					data: {
 						q: q
@@ -13651,7 +13651,7 @@ function MobileTimeline(options) {
 
 	function init() {
 		$.ajax({
-			url: 'https://w.áq.vn/api/era',
+			url: 'https://703705.xyz/api/era',
 			dataType: 'json'
 		}).done(onLoadComplete).fail(onLoadError);
 	}
@@ -14444,7 +14444,7 @@ function Timeline(options) {
 	function init() {
     //wait(1000);
 		$.ajax({
-			url: 'https://w.áq.vn/api/era',
+			url: 'https://703705.xyz/api/era',
 			dataType: 'json'
 		}).done(onLoadComplete).fail(onLoadError);
 	}
